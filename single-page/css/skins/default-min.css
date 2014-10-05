@@ -1,0 +1,107 @@
+h3,h4,h5{color:#76c40f;}
+a{color:#4169e1;}
+a:hover{color:#abc43c;}
+a:active{color:#4169e1;}
+.alternative-font{color:#76c40f;}
+p.drop-caps:first-child:first-letter{color:#76c40f;}
+p.drop-caps.secundary:first-child:first-letter{background-color:#76c40f;}
+ul.nav-pills > li.active > a{background-color:#76c40f;}
+ul.nav-pills > li.active > a:hover,
+ul.nav-pills > li.active > a:focus{background-color:#76c40f;}
+.sort-source-wrapper .nav > li.active > a{color:#76c40f;}
+.sort-source-wrapper .nav > li.active > a:hover,
+.sort-source-wrapper .nav > li.active > a:focus{color:#76c40f;}
+.pagination > .active a,
+.pagination > .active span,
+.pagination > .active a:hover,
+.pagination > .active span:hover,
+.pagination > .active a:focus,
+.pagination > .active span:focus{background-color:#76c40f !important;}
+.btn-primary,
+.pagination > .active > a{border-color:#76c40f !important;color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#76c40f;border-color:#76c40f;}
+.btn-primary:hover,
+.pagination > .active > a:hover{border-color:#84dc11;background-color:#84dc11;}
+.btn-primary:active,
+.pagination > .active > a:active,
+.btn-primary:focus,
+.pagination > .active > a:focus{border-color:#68ac0d;background-color:#68ac0d;}
+.progress-bar-primary{background-color:#76c40f;}
+section.highlight{background-color:#76c40f !important;border-color:#68ac0d !important;}
+section.page-top h2{border-bottom-color:#76c40f;}
+section.toggle label{color:#76c40f;border-left-color:#76c40f;}
+section.toggle.active > label{background-color:#76c40f;border-color:#76c40f;color:#FFF;}
+section.page-top.custom-product{background-color:#68ac0d;border-top-color:#70bb0e;}
+.feature-box .feature-box-icon{background-color:#76c40f;}
+.feature-box.secundary .feature-box-icon i.icon{color:#76c40f;}
+.thumb-info .thumb-info-type{background-color:#76c40f;}
+.thumb-info .thumb-info-action-icon{background-color:#76c40f;}
+.thumb-info-social-icons a{background-color:#76c40f;}
+.thumbnail .zoom{background-color:#76c40f;}
+.inverted{background-color:#76c40f;}
+.tabs ul.nav-tabs a,
+.tabs ul.nav-tabs a:hover{color:#76c40f;}
+.tabs ul.nav-tabs a:hover{border-top-color:#76c40f;}
+.tabs ul.nav-tabs li.active a{border-top-color:#76c40f;color:#76c40f;}
+.tabs.tabs-bottom ul.nav-tabs li a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a,
+.tabs.tabs-bottom ul.nav-tabs li.active a:hover,
+.tabs.tabs-bottom ul.nav-tabs li.active a:focus{border-bottom-color: #76c40f;}
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-left ul.nav-tabs li.active a:focus{border-left-color:#76c40f;}
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:hover,
+.tabs.tabs-vertical.tabs-right ul.nav-tabs li.active a:focus{border-right-color:#76c40f;}
+ul.list.icons li i{color: #76c40f;}
+i.icon-featured{background-color:#76c40f;}
+.parallax blockquote i.icon-quote-left{color:#76c40f;}
+section.video blockquote i.icon-quote-left{color:#76c40f;}
+.panel-group .panel-heading a{color:#76c40f;}
+.panel-group.secundary .panel-heading{background-color:#76c40f !important;}
+#header nav ul.nav-main ul.dropdown-menu,
+#header nav ul.nav-main li.dropdown.open .dropdown-toggle,
+#header nav ul.nav-main li.active a,
+#header nav ul.nav-main li > a:hover,
+#header nav ul.nav-main li.dropdown:hover a{color:#FFF;background-color:#76c40f !important;}
+#header nav ul.nav-main ul.dropdown-menu li:hover > a{background-color:#92ed19 !important;}
+#header nav ul.nav-main ul.dropdown-menu{color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);background-color:#76c40f;border-color:#76c40f;}
+#header nav ul.nav-main ul.dropdown-menu:hover{border-color:#84dc11;background-color:#84dc11;}
+#header nav ul.nav-main ul.dropdown-menu:active,
+#header nav ul.nav-main ul.dropdown-menu:focus{border-color:#68ac0d;background-color:#68ac0d;}
+#header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a{background:none !important;}
+#header nav ul.nav-main li.dropdown:hover ul.dropdown-menu li > a:hover{background:#84dc11 !important;}
+#header.single-menu nav ul.nav-main li.active > a{border-top:5px solid #76c40f;}
+#header.darken-top-border{border-top:5px solid #68ac0d !important;}
+#header.colored .header-top{background-color:#76c40f;}
+#header.colored .header-top ul.nav-top li a:hover{background-color:#84dc11 !important;}
+#header.flat-menu nav ul.nav-main li > a,
+#header.flat-menu nav ul.nav-main li.active > a{color:#666;}
+#header.flat-menu nav ul.nav-main li.active > a{color:#76c40f;background-color:transparent !important;}
+#header.flat-menu nav ul.nav-main li > a:hover,
+#header.flat-menu nav ul.nav-main li.dropdown:hover a{color:#FFF;background-color:#76c40f !important;}
+#header nav.mega-menu ul.nav-main li.mega-menu-item ul.dropdown-menu{border-top-color:#76c40f;}
+blockquote.testimonial{background:#84dc11;}
+.testimonial-arrow-down{border-top-color:#84dc11;}
+.featured-box-secundary i.icon-featured{background-color:#76c40f;}
+.featured-box-secundary h4{color:#76c40f;}
+.featured-box-secundary .box-content{border-top-color:#76c40f;}
+.pricing-table .most-popular{border-color:#76c40f;}
+.pricing-table .most-popular h3{background-color:#76c40f;}
+section.timeline .timeline-box.left:before,
+section.timeline .timeline-box.right:before{background:#76c40f;box-shadow:0 0 0 3px #ffffff, 0 0 0 6px #76c40f;}
+ul.history li .featured-box .box-content{border-top-color:#76c40f;}
+.recent-posts .date .month,
+article.post .post-date .month{background-color:#76c40f;}
+.recent-posts .date .day,
+article.post .post-date .day{color:#76c40f;}
+.slider .tp-bannertimer {background-color:#76c40f;}
+.home-intro p em{color:#92ed19;}
+.home-concept strong{color: #76c40f;}
+.shop ul.products li.product .onsale{background-color:#76c40f;border-bottom-color:#5f9e0c;}
+.shop .star-rating span,
+.shop .cart-totals tr.total .amount{color:#76c40f;}
+#footer .footer-ribbon{background:#76c40f;}
+#footer .footer-ribbon:before{border-right-color:#4b7d0a;}
+body.boxed .body{border-top-color:#76c40f;}

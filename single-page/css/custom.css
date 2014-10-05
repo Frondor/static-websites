@@ -1,0 +1,10 @@
+/* CSS customizations / overrides */
+div.home-intro{overflow:visible;}
+div.home-intro.light{background-color:#ffffff;}
+.pricing-table h3 span{font-family:Helvetica,Arial,sans-serif;}
+.pricing-table .plan-ribbon{background-color:#83c4e9;background-image:linear-gradient(to bottom, #83c4e9, #57b0e1);}
+.progress-bar-tooltip{padding:4px 11px;}
+/*
+.captcha-image{top:-5px;}
+.captcha{height:78px;}
+*/
