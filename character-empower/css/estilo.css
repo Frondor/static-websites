@@ -1,0 +1,45 @@
+body {background: url('http://www.wallpapershighd.com/wp-content/uploads/2014/05/black-gradient-background-8.jpg') no-repeat center center #000; background-size: cover;}
+
+/* inventario*/
+#inventario #inv-header {background: url('../img/inv-bg-1.png') no-repeat center top;width: 338px;height: 77px}
+#inventario #inv-slots {background: url('../img/inv-bg-2.png') no-repeat center top;width: 338px;height: 288px;padding: 10px 31px 0 32px}
+#inventario #inv-body {background: url('../img/inv-bg-3.png') no-repeat center top;width: 338px;height: 286px;padding: 13px 37px 30px 37px}
+
+#inventario #pet {background: url('../img/inv-slot-pet.png') no-repeat center top;width: 56px;height: 56px;}
+#inventario #pendant {background: url('../img/inv-slot-pendant.png') no-repeat center top;width: 37px;height: 37px;margin: 19px 0 0 8px}
+#inventario #casco {background: url('../img/inv-slot-casco.png') no-repeat center top;width: 56px;height: 56px;margin: 0 0 0 9px}
+#inventario #alas {background: url('../img/inv-slot-alas.png') no-repeat center top;width: 93px;height: 56px;}
+#inventario #alas a.equipado {position: relative;top: -30px;left: -16px;width: 128px;height: 96px;}
+#inventario #manoder {background: url('../img/inv-slot-manoder.png') no-repeat center top;width: 56px;height: 82px;margin: 6px 0 0 0}
+#inventario #armor {background: url('../img/inv-slot-armor.png') no-repeat center top;width: 56px;height: 82px;margin: 6px 0 0 54px}
+#inventario #manoizq {background: url('../img/inv-slot-manoizq.png') no-repeat center top;width: 56px;height: 82px;margin: 6px 0 0 0}
+#inventario #guantes {background: url('../img/inv-slot-guantes.png') no-repeat center top;width: 56px;height: 56px;margin: 6px 0 0 0}
+#inventario #ring1 {background: url('../img/inv-slot-ring.png') no-repeat center top;width: 37px;height: 37px;margin: 25px 0 0 8px}
+#inventario #pants {background: url('../img/inv-slot-pants.png') no-repeat center top;width: 56px;height: 56px;margin: 6px 0 0 9px}
+#inventario #ring2 {background: url('../img/inv-slot-ring.png') no-repeat center top;width: 37px;height: 37px;margin: 25px 0 0 8px}
+#inventario #botas {background: url('../img/inv-slot-botas.png') no-repeat center top;width: 56px;height: 56px;margin: 6px 0 0 0}
+#inventario #misc {background: url('../img/inv-slot-misc.png') no-repeat center top;width: 56px;height: 56px;margin: 6px 0 0 0}
+#inv-slots .slot:hover {color: #008C47;-webkit-box-shadow: 0px 0px 20px 1px inset;-moz-box-shadow: 0px 0px 20px 1px inset;-ms-box-shadow: 0px 0px 20px 1px inset;-o-box-shadow: 0px 0px 20px 1px inset;box-shadow: 0px 0px 20px 1px inset;-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius: 2px;-o-border-radius: 2px;border-radius: 2px}
+#inv-slots .slot:focus, #inv-slots .slot:active {color: #F00}
+#inv-slots .slot a {display: block;width: 100%;height: 100%}
+
+/* cuerpo del inventario */
+#inv-body .login {margin-top: 40px}
+#inv-body .form-control {background: #170D04;border: 1px solid #450F0F;}
+#inv-body .input-group-addon {color: #731919;background: #000;border-color: #4D1010;}
+
+#inv-body #ticketec .file-preview-frame {
+display: table-cell !important;
+margin: 0 !important;
+height: 70px !important;
+border: none !important;
+box-shadow: none !important;
+padding: 0 !important;
+float: none !important;
+text-align: center;
+vertical-align: middle;
+}
+#inv-body #ticketec .file-preview {border:1px solid #511414;}
+#inv-body #ticketec img.file-preview-image {height: 100%!important}
+#inv-body #ticketec .file-thumbnail-footer .file-caption-name {padding: 0 !important}
+#inv-body #ticketec .file-caption-name {padding-right: 0}
