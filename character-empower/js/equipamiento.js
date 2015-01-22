@@ -20,6 +20,21 @@ $("#personaje li").find("a").on("click", function (e) {
 	console.log( setsDisponibles );
 });
 
+// MENU SELECCION mano derecha
+$("#manoder").on("click", function () {
+	$("#rightequip").animate({"marginLeft": "-280px"}, 400);
+});
+$("#rightequip").find("li").on("click", function () {
+	$("#rightequip").animate({"marginLeft": "0"}, 400);
+});
+// MENU SELECCION mano izquierda
+$("#manoizq").on("click", function () {
+	$("#leftequip").animate({"marginLeft": "280px"}, 400);
+});
+$("#leftequip").find("li").on("click", function () {
+	$("#leftequip").animate({"marginLeft": "0"}, 400);
+});
+
 
 
 // add casco

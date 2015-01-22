@@ -8,9 +8,41 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 <link rel="stylesheet" type="text/css" href="css/fileinput.min.css">
 <link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
+
+<!-- paneles de equipamiento-->
+<section id="rightequip">
+	<div class="rightequip paneles">
+		<div class="panel-contenido">
+			<ul class="list-group">
+				<li class="list-group-itemX">Staff of Gorgon</li>
+				<li class="list-group-itemX">Destructo Blade</li>
+				<li class="list-group-itemX">Reign Sword</li>
+				<li class="list-group-itemX">Daybreaker</li>
+				<li class="list-group-itemX">Quel'Delar</li>
+				<li class="list-group-itemX">Marchon</li>
+				<li class="list-group-itemX">Destructo Blade</li>
+				<li class="list-group-itemX">Reign Sword</li>
+				<li class="list-group-itemX">Tuhermana</li>
+			</ul>
+		</div>
+	</div>
+</section>
+<section id="leftequip">
+	<div class="leftequip paneles">
+		<div class="panel-contenido">
+			<ul class="list-group text-right">
+				<li class="list-group-itemX">Quel'Delar</li>
+				<li class="list-group-itemX">Marchon</li>
+				<li class="list-group-itemX">MARLON</li>
+				<li class="list-group-itemX">Tuhermana</li>
+			</ul>
+		</div>
+	</div>
+</section><!-- paneles de equipamiento-->
 
 <div id="inventario">
 
@@ -153,6 +185,11 @@
 <script src="js/equipamiento.js"></script>
 <script>
 $(document).ready(function() {
+// Al final de tooooodo, desactivamos click derecho
+//$("html").bind("contextmenu", function (e) {
+//	e.preventDefault();
+//});
+
 	//start codigo ejemplo -temporal-
 		//haciendo la lista de detalles
 			$(".login").addClass("hidden");
