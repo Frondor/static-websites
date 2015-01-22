@@ -152,7 +152,17 @@
 <script src="js/fileinput.min.js"></script>
 <script src="js/equipamiento.js"></script>
 <script>
+
 $(document).ready(function() {
+ var armas ={BK:{mano_izq:[{type:2,index:5,name:"juan"},{type:2,index:5,name:"juancho"}]},MG:{mano_der:[{type:2,index:5,name:"juan"},{type:2,index:5,name:"juan3"}]}}
+    var div = $("<div>").attr("id", "div-id").addClass("some-div");
+    var ul = $("<ul>").addClass("some-ul");
+    $.each(armas.BK.mano_izq, function(i, value) {
+        var li = $("<li>").html(this).attr("id", value.name);
+        ul.append(li);
+    });
+    div.append(ul);
+    $("body").append(div);
 	//start codigo ejemplo -temporal-
 		//haciendo la lista de detalles
 			$(".login").addClass("hidden");
