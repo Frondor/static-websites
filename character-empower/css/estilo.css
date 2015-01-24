@@ -57,3 +57,4 @@ vertical-align: middle;
 .paneles ul li {background:url('../img/li-bg.png') 1px 0;height: 30px;cursor: pointer;list-style: none;color: #D09703;text-shadow: 1px 1px #000;font-family: 'Cinzel Decorative' ,sans-serif;font-size: 12px;line-height: 29px;padding: 0 8px;border-bottom: 1px solid #000}
 .paneles ul li:hover {background:url('../img/li-bg.png') 1px -30px;height:30px;}
 .paneles ul li:active {background:url('../img/li-bg.png') 1px -60px;}
+
