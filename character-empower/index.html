@@ -15,6 +15,7 @@
 </head>
 <body>
 <div id="cargando"></div>
+	<video src="img/inventory-slots-bg.mp4" autoplay="true" loop="true" controls="false" style="position: absolute;width: 100%;top: 0;margin: 0 auto;opacity: 0.1;"></video>
 
 <!-- paneles de equipamiento-->
 <section id="manoderecha" class="hidden">
@@ -41,10 +42,9 @@
 	<section id="inv-header" class="center-block">
 	</section>
 	<section id="inv-slots" class="center-block" data-clase="default" data-tier="default" data-congato="no">
-		<div class="personajes"><h2>Elige tu personaje</h2>
+		<div class="personajes">
 			<div id="personaje" class="dropdown">
-			  <button class="btn btn-danger btn-lg dropdown-toggle" type="button" id="dropPjs" data-toggle="dropdown" aria-expanded="false">Personaje: <span class="caret"></span>
-			  </button>
+			  <button class="center-block dropdown-toggle" type="button" id="dropPjs" data-toggle="dropdown" aria-expanded="false"><span class="sr-only">Elige un personaje</span></button>
 			  <ul class="dropdown-menu" role="menu" aria-labelledby="dropPjs">
 			    <li role="presentation" class="dropdown-header">Evolucionados</li>
 			    <li role="presentation"><a role="menuitem" href="#" data-clase="bm" data-pj="Bolvar"><span class="label label-default">BM</span> Bolvar</a></li>
