@@ -58,7 +58,18 @@ $("#personaje li").find("a").on("click", function (e) {
 	$("#inv-slots").attr('data-clase', clase);
 
 });
-
+//MENU SELECCION
+function cerrarPanel(lado) {
+	if (lado == "manoderecha") {
+		$("#manoizquierda").animate({"marginLeft": "0"}, 400, function () {
+					$(this).addClass("hidden");
+		});
+	} else if (lado == "manoizquierda") {
+		$("#manoderecha").animate({"marginLeft": "0"}, 400, function () {
+					$(this).addClass("hidden");
+		});
+	}
+}
 // MENU SELECCION mano derecha
 $("#manoder a").on("click", function () {
 	var mano = $(this).data('mano');
@@ -66,6 +77,7 @@ $("#manoder a").on("click", function () {
 
 		filtrado(clase, mano);
 	
+	cerrarPanel(mano);
 	$("#manoderecha").removeClass("hidden").animate({"marginLeft": "-280px"}, 400);
 });
 // MENU SELECCION mano izquierda
@@ -75,6 +87,7 @@ $("#manoizq a").on("click", function () {
 
 		filtrado(clase, mano);
 	
+	cerrarPanel(mano);
 	$("#manoizquierda").removeClass("hidden").animate({"marginLeft": "280px"}, 400);
 });
 

@@ -5,7 +5,10 @@ body {background: url('http://www.wallpapershighd.com/wp-content/uploads/2014/05
 #inventario #inv-slots {background: url('../img/inv-bg-2.png') no-repeat center top;width: 338px;height: 288px;padding: 10px 31px 0 32px;position:relative;z-index: 3}
 #inventario #inv-body {background: url('../img/inv-bg-3.png') no-repeat center top;width: 338px;height: 286px;padding: 13px 37px 30px 37px;position:relative;z-index: 2}
 
-#inventario #inv-slots .personajes {background: rgba(0, 0, 0, 0.48);text-align: center;position: absolute;left: 0;right: 0;top: 0;bottom: 0;max-width: 299px;margin: 0 auto;color: #A15C00;font-weight: 700;letter-spacing: -0.5px;padding-top: 27%}
+#inventario #inv-slots .personajes {background: rgba(0, 0, 0, 0.48);text-align: center;position: absolute;left: 0;right: 0;top: 0;bottom: 0;max-width: 299px;margin: 0 auto;color: #A15C00;font-weight: 700;letter-spacing: -0.5px;padding-top: 30%}
+#inventario #inv-slots #personaje button:active {margin-top:1px;}
+#inventario #inv-slots #personaje.dropdown button {background: url('../img/botones-sprite.png') no-repeat 0px 0px;width: 283px;height: 62px;border: none}
+#inventario #inv-slots #personaje.dropdown.open button {background: url('../img/botones-sprite.png') no-repeat 0px -54px;width: 283px;height: 62px;border: none}
 #inventario #pet {background: url('../img/inv-slot-pet.png') no-repeat center top;width: 56px;height: 56px;}
 #inventario #pendant {background: url('../img/inv-slot-pendant.png') no-repeat center top;width: 37px;height: 37px;margin: 19px 0 0 8px}
 #inventario #casco {background: url('../img/inv-slot-casco.png') no-repeat center top;width: 56px;height: 56px;margin: 0 0 0 9px}
